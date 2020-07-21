@@ -24,8 +24,8 @@ public class Executor {
 
     private static void startSingletonGitar() {
         Gitar.getInstance("Gibson Les Paul");
-        System.out.println(Gitar.name);
+        System.out.println("Gitar: " + Gitar.name);
         Gitar.getInstance("Trembita");
-        System.out.println(Gitar.name);
+        System.out.println("Gitar: " + Gitar.name);
     }
 }
